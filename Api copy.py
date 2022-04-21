@@ -20,3 +20,5 @@ ddf=ddf.loc[:'files']
 df=pd.DataFrame(ddf)
 #Quitar parentesis para poder separar por columnas y ser legible
 splittest=df['result'].str.split(',',expand=True)
+
+#abriendo archivo
